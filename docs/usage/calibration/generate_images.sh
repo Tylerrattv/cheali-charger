@@ -3,5 +3,8 @@
 GEN=../../../utils/lcdScreenshotGenerator/generate.py
 
 
-$GEN ">options " "i_options.png" 50%
-$GEN ">calibrate" "i_calibrate.png" 50%
+RESIZE=50%
+
+$GEN ">options "   "i_options.png"   $RESIZE
+$GEN ">calibrate " "i_calibrate.png" $RESIZE
+$GEN ">voltage "   "i_voltage.png"   $RESIZE
