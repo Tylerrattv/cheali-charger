@@ -2,7 +2,8 @@
 # Calibration
 
 To calibrate your charger you will need a **NOT fully charged** LiPo battery.  
-First you should perform the [voltage calibration](calibration.md#voltage-calibration) and then [current calibration](calibration.md#current-calibration). External/Internal temperature calibration is usually not required.
+First you should perform the [voltage calibration](calibration.md#voltage-calibration) and then [current calibration](calibration.md#current-calibration).  
+External/Internal temperature calibration is usually not required.
 
 If you have any problems with calibration, go to ![options](i_options.png) ![reset default](i_reset_default.png) and try again, this will reset your eeprom to factory settings.
 
