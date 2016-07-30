@@ -1,10 +1,10 @@
-Calibration
------------
-Connect a NOT fully charged LiPo battery to the main leads  
-and the balance port, if you don't own a battery with a  
-balance connector, just connect a regular one (~4V)  
-to the main leads and the balance port first two [pins](docs/connectors/balancePortPins.jpeg)  
-(pin "0" <--> Bat-, pin "1" <--> Bat+). 
+
+# Calibration
+
+To calibrate your charger you will need a **NOT fully charged** LiPo battery.  
+First you should perform the [voltage calibration](calibration.md#Voltage calibration) and then [current calibration](calibration.md#current calibration).
+
+## Voltage calibration
 
 go to: "options"->"calibrate":
 - voltage calibration: go to "voltage"
@@ -12,6 +12,9 @@ go to: "options"->"calibrate":
      and set voltage on Vin, Vb1, Vb2, .., Vb6  
       - only Vb1 is mandatory, battery main leads and balance port must be connected
       - you need to change at least one value (this will copy V1-6 voltage to Vbat)
+
+## Current calibration
+
 - charge current calibration: 
   - connect your amperemeter in series with the battery, use the 10A(20A) input  
   - disconnect balance port
