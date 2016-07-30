@@ -4,10 +4,10 @@ GEN=../../../utils/lcdScreenshotGenerator/generate.py
 GEN2=../../../utils/lcdScreenshotGenerator/generate2.py
 
 
-#RESIZE=100%
+RESIZE=50%
 
 function STRING {
-    $GEN "$2" "i_$1.png" > /dev/null
+    $GEN "$2" "i_$1.png" $3 > /dev/null
     echo "|![$1](i_$1.png)         |   |   |"
 }
 
@@ -31,29 +31,29 @@ STRING MenuButtons  " buttons:    rev"
 STRING reset        " reset          "
 
 #    //UARToutput menu
-STRING temp     "temp"
-STRING pin7     "pin7"
-STRING pin38    "pin38"
+STRING temp     "temp"  $RESIZE
+STRING pin7     "pin7"  $RESIZE
+STRING pin38    "pin38" $RESIZE
 
 #    //UART view menu
-STRING disable      "disabled"
-STRING normal       "normal"
-STRING debug        "debug"
-STRING extDebug     "ext. deb"
-STRING extDebugAdc  "ext. Adc"
+STRING disable      "disabled"  $RESIZE
+STRING normal       "normal"  $RESIZE
+STRING debug        "debug"  $RESIZE
+STRING extDebug     "ext. deb"  $RESIZE
+STRING extDebugAdc  "ext. Adc"  $RESIZE
 
 #    //fanOn reason menu
 #//  STRING(disable,     "disabled"); -- defined in UART view
-STRING always       "always"
-STRING FanProgram   "program"
-STRING temperature  "Tempera"
-STRING tempProgram  "T-progr"
+STRING always       "always"  $RESIZE
+STRING FanProgram   "program"  $RESIZE
+STRING temperature  "Tempera"  $RESIZE
+STRING tempProgram  "T-progr"  $RESIZE
 
 #    //MenuType
-STRING simple       "simple"
-STRING advanced     "advanced"
+STRING simple       "simple"   $RESIZE
+STRING advanced     "advanced"  $RESIZE
 
 #    //MenuButtons
 #    //STRING(normal,      "normal"); - defined in UART view
-STRING reversed       "rev"
+STRING reversed       "rev"   $RESIZE
 
