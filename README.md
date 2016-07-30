@@ -42,7 +42,7 @@ Features
 
 WARNING
 -------
-Please [CALIBRATE](README.md#calibration) charger before use!  
+Please [calibrate](docs/usage/calibration/calibration.md) charger before use!  
 Use an external temperature probe  
 (if You like your house ;) )
 
@@ -77,12 +77,12 @@ Usage:
 
 After [flashing](docs/flashing.md) your charger the first thing you should do is  
 reset the charger to default settings (go to: "options"->"reset default" and press the "start" button)  
-and then [calibrate](README.md#calibration) it, now your charger is ready to [charge](docs/usage/README.md).
+and then [calibrate](docs/usage/calibration/calibration.md) it, now your charger is ready to [charge](docs/usage/README.md).
 
 [Flashing](docs/flashing.md)
 ----------------------------
 
-[Calibration](docs/usage/calibration.md)
+[Calibration](docs/usage/calibration/calibration.md)
 ----------------------------------------
 
 [Charging](docs/usage/charings.md)
