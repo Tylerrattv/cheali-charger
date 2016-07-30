@@ -13,13 +13,7 @@ http://groups.google.com/group/cheali-charger
 Features
 --------
 - Li-ion, LiPo, LiPo-4.30V, LiPo-4.35V, LiFe:
-  - charging
-  - fast charging
-  - charging + balancing
-  - discharging
-  - balancing
-  - storage
-  - storage + balancing
+  - charging, fast charging, charging + balancing, discharging, balancing, storage, storage + balancing
 - NiCd and NiMH:
   - charging, method: -dV/dT
   - discharging
