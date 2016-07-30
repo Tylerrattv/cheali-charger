@@ -12,31 +12,32 @@ http://groups.google.com/group/cheali-charger
 
 Features
 --------
-- Li-ion, LiPo, LiPo-4.30V, LiPo-4.35V, LiFe:
-  - charging, fast charging, charging + balancing, discharging, balancing, storage, storage + balancing
+- Li-ion, LiFe, LiPo, LiPo-4.30V (LiHV), LiPo-4.35V (LiHV):
+  - charge, fast charge, charge + balance, discharge, balance, storage, storage + balance, capacity check
+  - editable: charge/storage/discharge end voltage, charge/discharge current, capacity
+  - capacity limit, time limit, temperature limit
+  - displays internal resistance during charge
 - NiCd and NiMH:
-  - charging, method: -dV/dT
-  - discharging
-  - cycling
+  - constant current charge (method: -dV, dT/dt), discharge, cycling, capacity check
+  - editable: charge/discharge cutoff voltage, charge/discharge current, dV, dT/dt
+  - capacity limit, time limit, temperature limit
 - NiZn:
-  - charging
-  - fast charging
-  - charging + balancing
-  - discharging
-  - balancing
-- Pb: - not well tested!
-  - charging
-  - discharging
-- Internal resistance display
-  - single cell resistance
-  - whole battery resistance
-  - battery leads resistance
-- Internal and external temperature monitoring
-- Overcharge and overdischarge monitoring
-- Input voltage monitoring
-- Memory for 30 batteries
-- LogView support
-- CALIBATION!
+  - charge, fast charge, charge + balance, discharge, balance, capacity check
+  - editable: charge/discharge end voltage, charge/discharge current, capacity
+  - capacity limit, time limit, temperature limit
+- Pb:
+  - charge, discharge, cycling, capacity check
+  - editable: charge/discharge end voltage, charge/discharge current, capacity
+  - capacity limit, time limit, temperature limit
+- LED (light-emitting diode):
+  - constant current source
+  - editable: current (on the fly), cutoff voltage
+- Supports:
+  - internal temperature monitoring (if supported by hardware)
+  - power supply voltage monitoring
+  - UART logging - LogView compatible
+  - Memory for 20 batteries
+  - calibration
 
 
 WARNING
