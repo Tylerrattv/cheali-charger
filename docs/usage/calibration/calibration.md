@@ -52,7 +52,7 @@ voltage calibration done.
 current calibration done.
 
 *note: it is possible to change the current calibration points: 1000mA and 100mA,
-for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" acording to it.*
+for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" according to it.*
 
 ## Internal temperature calibration - optional
 
@@ -60,8 +60,8 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 - set ![calibration point 0](i_cp0.png) to 0
   - set ![temp20](i_temp20.png) to your room temperature
 - set ![calibration point 1](i_cp1.png) to 1
-  - heat put your charger with a heatgun to about 60°C
-  - set ![temp60](i_temp60.png) acordingly
+  - heat put your charger with a heat-gun to about 60°C
+  - set ![temp60](i_temp60.png) accordingly
 
 ## External temperature calibration - optional
 
@@ -70,7 +70,7 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 - set ![calibration point 0](i_cp0.png) to 0
   - set ![temp20](i_temp20.png) to your room temperature
 - set ![calibration point 1](i_cp1.png) to 1
-  - heat put your temperature proble with a heatgun to about 60°C (your body temperature will also do the job)
-  - set ![temp60](i_temp60.png) acordingly
+  - heat put your temperature proble with a heat-gun to about 60°C (your body temperature will also do the job)
+  - set ![temp60](i_temp60.png) accordingly
 
 ## [Calibration  "expert DANGER!" - optional](docs/calibration_expert.md)
