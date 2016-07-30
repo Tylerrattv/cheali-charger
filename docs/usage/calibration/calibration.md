@@ -104,9 +104,9 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 |![adc:](i_adc.png)| internal temperature measured ADC value |
 |![calibration point](i_cp0.png)| current calibration point |
 |**expert voltage calibration**| |
-|![Vb0pin](i_vb0pin.png)| voltage between [pin](../../hardware/connectors/balancePortPins.jpeg) "0" and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
-|![Vb1pin](i_vb1pin.png)| voltage between [pin](../../hardware/connectors/balancePortPins.jpeg) "1" and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
-|![Vb2pin](i_vb1pin.png)| voltage between [pin](../../hardware/connectors/balancePortPins.jpeg) "2" and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
+|![Vb0pin](i_vb0pin.png)| voltage between [pin "0"](../../hardware/connectors/balancePortPins.jpeg) and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
+|![Vb1pin](i_vb1pin.png)| voltage between [pin "1"](../../hardware/connectors/balancePortPins.jpeg) and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
+|![Vb2pin](i_vb1pin.png)| voltage between [pin "2"](../../hardware/connectors/balancePortPins.jpeg) and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
 |![Vplus](i_vplus.png)| voltage between main lead red wire and [GND](../../hardware/connectors/isp_imaxB6.jpeg) |
 |![Vminus](i_vplus.png)| voltage between main lead black wire and [GND](../../hardware/connectors/isp_imaxB6.jpeg) |
 
