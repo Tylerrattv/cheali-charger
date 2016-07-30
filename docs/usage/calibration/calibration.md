@@ -32,11 +32,11 @@ voltage calibration done.
  *note: battery will be charged without checking the output voltage, make sure battery is not fully charged*
 - go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![I charge](i_Icharge.png):
   - go to: ![1000mA](i_1000mA.png)  
-    press "start" button (current flow should be visible on amperemeter)
+    press "start" button (current flow should be visible on amperemeter)  
     press "Inc", "Dec" buttons until the amperemeter shows 1000mA  
     press "start" button to save the setting  
     *WARNING: the battery will be* **charged** *with high current!*
-  - go to: ![100mA](i_100mA.png) (50mA on some chargers)
+  - go to: ![100mA](i_100mA.png) (50mA on some chargers)  
     press "start" button (current flow should be visible on amperemeter)  
     press "Inc", "Dec" buttons until the amperemeter shows 100mA (50mA on some versions)  
     press "start" button to save the setting  
