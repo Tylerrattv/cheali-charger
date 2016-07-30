@@ -99,7 +99,6 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 |![temp:](i_temp.png)| external probe temperature (see 3)|
 |![adc:](i_adc.png)| external probe measured ADC value |
 |![calibration point](i_cp0.png)| current calibration point |
-
 |**internal temperature calibration**| (see 4) |
 |![temp:](i_temp.png)| internal temperature (see 3)|
 |![adc:](i_adc.png)| internal temperature measured ADC value |
