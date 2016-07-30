@@ -33,7 +33,7 @@ call(exec_cmd)
 
 
 if len(sys.argv) > 4:
-    border = ['-bordercolor', sys.argv[4] ,'-border', '1']
+    border = ['-bordercolor', sys.argv[4] ,'-border', '2']
 else:
     border = []
 
