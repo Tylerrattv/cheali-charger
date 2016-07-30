@@ -6,7 +6,7 @@ First you should perform the [voltage calibration](calibration.md#voltage-calibr
 
 ## Voltage calibration
 
-go to: "options"->"calibrate":
+go to: ![options](i_options.png)"->"calibrate":
 - voltage calibration: go to "voltage"
    - use a voltmeter to measure voltage on all cells and the power supply voltage (Vin)  
      and set voltage on Vin, Vb1, Vb2, .., Vb6  
