@@ -73,4 +73,46 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
   - heat put your temperature proble with a heat-gun to about 60°C (your body temperature will also do the job)
   - set ![temp60](i_temp60.png) accordingly
 
-## [Calibration  "expert DANGER!" - optional](docs/calibration_expert.md)
+## [Expert voltage calibration- optional](calibration_expert.md)
+
+
+# Calibration - all settings
+|  | description | 
+|:------|:--------------|
+|**voltage calibration** |
+|![Vin](i_vin.png)| power supply voltage |
+|![Vb1](i_vb1.png)| voltage on cell 1|
+| ... | |
+|![Vb6](i_vb6.png)| voltage on cell 6|
+|![V1-6](i_v1-6.png)| balance port voltage|
+|![Vout](i_vout.png)| main leads voltage|
+|![calibration point](i_cp1_red.png)| current calibration point (see: 1,2)|
+|**charge current calibration**| |
+|![value:](i_value.png)| internal current value (PID set point or PWM)|
+|![I:](i_I.png)| measured current: real value (see 3), ADC value |
+|![Iexpec:](i_Iexpected.png)| expected current for the given *internal current value* |
+|**discharge current calibration**| |
+|![value:](i_value.png)| internal current value (PID set point or PWM)|
+|![I:](i_I.png)| measured current: real value (see 3), ADC value |
+|![Iexpec:](i_Iexpected.png)| expected current for the given *internal current value* |
+|**external temperature calibration**| |
+|![temp:](i_temp.png)| external probe temperature (see 3)|
+|![adc:](i_adc.png)| external probe measured ADC value |
+|![calibration point](i_cp0.png)| current calibration point |
+
+|**internal temperature calibration**| (see 4) |
+|![temp:](i_temp.png)| internal temperature (see 3)|
+|![adc:](i_adc.png)| internal temperature measured ADC value |
+|![calibration point](i_cp0.png)| current calibration point |
+|**expert voltage calibration**| |
+|![Vb0pin](i_vb0pin.png)| voltage between [pin](../../hardware/connectors/balancePortPins.jpeg) "0" and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
+|![Vb1pin](i_vb1pin.png)| voltage between [pin](../../hardware/connectors/balancePortPins.jpeg) "1" and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
+|![Vb2pin](i_vb1pin.png)| voltage between [pin](../../hardware/connectors/balancePortPins.jpeg) "2" and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
+|![Vplus](i_vplus.png)| voltage between main lead red wire and [GND](../../hardware/connectors/isp_imaxB6.jpeg) |
+|![Vminus](i_vplus.png)| voltage between main lead black wire and [GND](../../hardware/connectors/isp_imaxB6.jpeg) |
+
+1. all settings with red border are visible in [advanced menus](advanced menus.md)
+2. all voltages for calibration point 0 are set to 0 volts, calibration should be performed at point 1
+3. value taking into account calibration
+4. only on chargers with internal temperature probe, on nuvoton M0517 it's the CPUs temperature
+5. only on chargers with simplified cell 1,2 measuring circuit
