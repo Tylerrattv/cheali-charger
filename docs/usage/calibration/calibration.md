@@ -45,7 +45,7 @@ voltage calibration done.
 ### discharge current calibration
 
 - go to: ![I discharge](i_Idischarge.png):  
-    Repeat the same steps as before, this time for 300mA and 100mA (50mA) current
+    Repeat the same steps as before, this time for 300mA and 100mA (50mA) current  
     *WARNING: the battery will be* **discharged** *with high current!*
 
 current calibration done.
