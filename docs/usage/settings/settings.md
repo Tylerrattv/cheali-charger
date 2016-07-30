@@ -5,7 +5,7 @@
 |                                 | description     | charger type|
 |:--------------------------------|:----------------|------------:|
 |![backlight](i_backlight.png)    | LCD backlight | 200W/400W   |
-|![fanOn](i_fanOn.png)            | fan On condition:<br> ![disable](i_disable.png) - always off<br> ![always](i_always.png) - always on<br> ![FanProgram](i_FanProgram.png) on when *program* is running<br>![temperature](i_temperature.png)  on when T higher then *fan T on* <br>![tempProgram](i_tempProgram.png) on when T higher then *fan T on* and *program* is running   | 200W/400W |
+|![fanOn](i_fanOn.png)            | fan On condition:<br> ![disable](i_disable.png) - always off<br> ![always](i_always.png) - always on<br> ![FanProgram](i_FanProgram.png) - on when *program* is running<br>![temperature](i_temperature.png) - on when T higher then *fan T on* <br>![tempProgram](i_tempProgram.png) - on when T higher then *fan T on* and *program* is running | 200W/400W |
 |![fanTempOn](i_fanTempOn.png)    | turn on fan when chargers internal temperature is higher than *X*°C |  200W/400W |
 |![dischOff](i_dischOff.png)      | pause discharging when chargers internal temperature is higher than *X*°C | 200W/400W, <br> M0517 (see 1.)|
 |![AudioBeep](i_AudioBeep.png)    | enable/disable sound | |
