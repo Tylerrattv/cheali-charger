@@ -7,7 +7,8 @@ GEN2=../../../utils/lcdScreenshotGenerator/generate2.py
 #RESIZE=100%
 
 function STRING {
-    $GEN "$2" "i_$1.png"
+    $GEN "$2" "i_$1.png" > /dev/null
+    echo "|![$1](i_$1.png)         |   |   |"
 }
 
 
