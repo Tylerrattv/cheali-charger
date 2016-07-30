@@ -73,7 +73,7 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
   - heat put your temperature proble with a heat-gun to about 60°C (your body temperature will also do the job)
   - set ![temp60](i_temp60.png) accordingly
 
-## [Expert voltage calibration- optional](calibration_expert.md)
+## [Expert voltage calibration](calibration_expert.md) - optional
 
 
 # Calibration - all settings
@@ -96,11 +96,11 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 |![I:](i_I.png)| measured current: real value (see 3), ADC value |
 |![Iexpec:](i_Iexpected.png)| expected current for the given *internal current value* |
 |**external temperature calibration**| |
-|![temp:](i_temp.png)| external probe temperature (see 3)|
+|![temp:](i_temp20.png)| external probe temperature (see 3)|
 |![adc:](i_adc.png)| external probe measured ADC value |
 |![calibration point](i_cp0.png)| current calibration point |
 |**internal temperature calibration**| (see 4) |
-|![temp:](i_temp.png)| internal temperature (see 3)|
+|![temp:](i_temp20.png)| internal temperature (see 3)|
 |![adc:](i_adc.png)| internal temperature measured ADC value |
 |![calibration point](i_cp0.png)| current calibration point |
 |**expert voltage calibration**| |
