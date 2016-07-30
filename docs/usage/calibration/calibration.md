@@ -7,14 +7,17 @@ First you should perform the [voltage calibration](calibration.md#voltage-calibr
 ## Voltage calibration
 
 - go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![voltage](i_voltage.png):
-- connect a LiPo battery to the main leads and balance port
+- connect a LiPo battery to the main leads and balance port  
+   *note: if you don't have a battery with a balance port just connect a regular one (<4.5V)
+to the main leads and the balance port first two [pins](docs/hardware/connectors/balancePortPins.jpeg)*
 - measure power supply voltage and set it into: ![Vin](i_vin.png)
-- measure 1..6 cell voltage and set it into: ![Vb1](i_vb1.png) .. ![Vb6](i_vb6.png)
-- voltage calibration: go to "voltage"
-   - use a voltmeter to measure voltage on all cells and the power supply voltage (Vin)  
-     and set voltage on Vin, Vb1, Vb2, .., Vb6  
-      - only Vb1 is mandatory, battery main leads and balance port must be connected
-      - you need to change at least one value (this will copy V1-6 voltage to Vbat)
+- measure 1..6 cell voltage and set it into: ![Vb1](i_vb1.png) .. ![Vb6](i_vb6.png)  
+   *note: if you don't have a 6 cell battery, just use one with less cells*
+- now you should see the same voltage in "V1-6" (balance port voltage) and "Vout" (main leads voltage):  
+  ![V1-6:, Vout:](i_vb1-6_vout.png)  
+  *note: you need to change at least one value (this will copy "V1-6" voltage to "Vout")*
+- voltage calibration done
+
 
 ## Current calibration
 
