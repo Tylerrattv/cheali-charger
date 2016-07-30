@@ -4,10 +4,10 @@ GEN=../../../utils/lcdScreenshotGenerator/generate.py
 GEN2=../../../utils/lcdScreenshotGenerator/generate2.py
 
 
-RESIZE=50%
+#RESIZE=100%
 
 function STRING {
-    $GEN "$2" "i_$1.png" $RESIZE
+    $GEN "$2" "i_$1.png"
 }
 
 
