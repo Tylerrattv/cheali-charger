@@ -2,13 +2,11 @@
 settings
 ========
 
-general settings:
------------------
-
-| name                                           | description     | charger type|
+|                                                | description     | charger type|
 |:-----------------------------------------------|:----------------|------------:|
-|backlight: *X*                                  | LCD backlight | 200W/400W   |
-|fan on: *X*°C                                   | turn on fan when chargers internal temperature is higher than *X*°C |  200W/400W |
+|![backlight](i_backlight.png)                   | LCD backlight | 200W/400W   |
+|![fanOn](i_fanOn.png)                           |  | 200W/400W |
+|![fanTempOn](i_fanTempOn.png)                   | turn on fan when chargers internal temperature is higher than *X*°C |  200W/400W |
 |disch off: *X*°C<br>![disch off:](disch_off.png)| pause discharging when chargers internal temperature is higher than *X*°C | 200W/400W, M0517 see 1.|
 |extrn T: *yes/no*<br>![extrn T:](extrn_T.png)   | enable/disable external temperature probe, used in: "extrn TCO:", "dT/dt:"| all| 
 |extrn TCO: *X*°C<br>![extrn TCO:](extrn_TCO.png)| external temperature cut-off, stop program when ext. temp. is higher than *X*°C, see also: "extrn T:" | all| 
