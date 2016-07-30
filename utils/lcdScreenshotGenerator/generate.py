@@ -2,9 +2,12 @@
 
 
 import sys
+import inspect, os
 from subprocess import call
 
-xpm_path = './xpm/'
+current_path=os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+
+xpm_path = current_path+'/xpm/'
 montage = 'montage'
 extra_params = ['-background', '#0877ed', '-geometry', '+2+4', '-tile', 'x1' ]
 
