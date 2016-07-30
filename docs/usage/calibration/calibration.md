@@ -109,9 +109,10 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 |![Vb2pin](i_vb1pin.png)| voltage between [pin "2"](../../hardware/connectors/balancePortPins.jpeg) and [GND](../../hardware/connectors/isp_imaxB6.jpeg) (see 5) |
 |![Vplus](i_vplus.png)| voltage between main lead red wire and [GND](../../hardware/connectors/isp_imaxB6.jpeg) |
 |![Vminus](i_vplus.png)| voltage between main lead black wire and [GND](../../hardware/connectors/isp_imaxB6.jpeg) |
+|![calibration point](i_cp1_red.png)| current calibration point (see: 1,2)|
 
 1. all settings with red border are visible in [advanced menus](advanced menus.md)
-2. all voltages are set to 0 volts at calibration point 0 , calibration should be performed at point 1
+2. all voltages are set to 0 volts at calibration point 0, calibration should be performed at point 1
 3. value taking into account calibration
 4. only on chargers with internal temperature probe, on nuvoton M0517 it's the CPUs temperature
 5. only on chargers with simplified cell 1,2 measuring circuit
