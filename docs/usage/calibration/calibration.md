@@ -2,7 +2,7 @@
 # Calibration
 
 To calibrate your charger you will need a **NOT fully charged** LiPo battery.  
-First you should perform the [voltage calibration](calibration.md#Voltage calibration) and then [current calibration](calibration.md#current calibration).
+First you should perform the [voltage calibration](calibration.md#voltage-calibration) and then [current calibration](calibration.md#current-calibration).
 
 ## Voltage calibration
 
