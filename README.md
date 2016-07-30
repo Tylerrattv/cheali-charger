@@ -46,9 +46,7 @@ Please [CALIBRATE](README.md#calibration) charger before use!
 Use an external temperature probe  
 (if You like your house ;) )
 
-**ALWAYS** connect the power supply **first**, then the battery!
-
-**ALWAYS** disconnect the battery **before** disconnecting the power supply!
+**ALWAYS** connect power supply **first**, then the battery! disconnect the battery **before** disconnecting power supply!
 
 Hardware
 --------
@@ -71,7 +69,8 @@ Hardware
 
 **Unsupported**
 - [Turnigy Accucel-6 80W Balancer/Charger](http://www.hobbyking.com/hobbyking/store/__64345__Turnigy_Accucel_6_80W_10A_Balancer_Charger_LiHV_Capable.html) - Based on an older, uncommon CPU. See [#106](https://github.com/stawel/cheali-charger/issues/106)
-- **any charger listed above with an unknown CPU** (CPU not labeled)
+- any charger listed above with an **unknown CPU** (**CPU not labeled** - probably Z51F3220)
+- any charger with an **mcs51 (8051) family CPU** (MA84G564)
 
 Usage:
 ------
