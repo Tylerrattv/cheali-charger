@@ -25,3 +25,11 @@ $GEN ">  100mA "        "i_100mA.png"     $RESIZE
 
 $GEN ">value:    11080" "i_value.png"     $RESIZE
 $GEN ">Iexpec:  1000mA" "i_Iexpected.png" $RESIZE
+
+
+$GEN ">temp extern "    "i_temp_external.png" $RESIZE
+$GEN ">temp intern "    "i_temp_internal.png" $RESIZE
+$GEN ">calib. p.:   0 " "i_cp0.png" $RESIZE
+$GEN ">calib. p.:   1 " "i_cp1.png" $RESIZE
+$GEN ">temp:    21.10C" "i_temp20.png" $RESIZE
+$GEN ">temp:    63.30C" "i_temp60.png" $RESIZE
