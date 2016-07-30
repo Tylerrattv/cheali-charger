@@ -15,3 +15,11 @@ $GEN ">Vb6:     3.970V" "i_vb6.png"       $RESIZE
 
 $GEN2 ">V1-6:   11.901V" " Vout:   11.901V"  "i_vb1-6_vout.png"    $RESIZE
 
+
+$GEN ">I charge "       "i_Icharge.png"   $RESIZE
+$GEN ">I discharge "    "i_Idischarge.png" $RESIZE
+$GEN "> 1000mA "        "i_1000mA.png"    $RESIZE
+$GEN ">  100mA "        "i_100mA.png"     $RESIZE
+
+$GEN ">value:    11080" "i_value.png"     $RESIZE
+$GEN ">Iexpec:  1000mA" "i_Iexpected.png" $RESIZE
