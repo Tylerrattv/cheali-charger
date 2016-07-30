@@ -9,6 +9,7 @@ current_path=os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 
 xpm_path = current_path+'/xpm/'
 montage = 'montage'
+convert = 'convert'
 extra_params = ['-background', '#0877ed', '-geometry', '+2+4', '-tile', 'x1' ]
 
 output = 'output.png'
@@ -26,5 +27,11 @@ fonts = [xpm_path + '0x' + i.encode('hex').upper()+'.xpm' for i in string]
 #print fonts
 exec_cmd = [montage] + fonts + extra_params + [output]
 
+
 print 'command:', exec_cmd
 call(exec_cmd)
+
+if len(sys.argv) > 3:
+    call([convert, '-resize', sys.argv[3], output, output])
+
+
