@@ -35,7 +35,7 @@ Features
 - Supports:
   - internal temperature monitoring (if supported by hardware)
   - power supply voltage monitoring
-  - UART logging - LogView compatible
+  - UART logging - [LogView](docs/Logview.md) compatible
   - Memory for 20 batteries
   - calibration
 
@@ -79,20 +79,26 @@ After [flashing](docs/flashing.md) your charger the first thing you should do is
 reset the charger to default settings (go to: "options"->"reset default" and press the "start" button)  
 and then [calibrate](README.md#calibration) it, now your charger is ready to [charge](docs/usage/README.md).
 
-1. informations about [settings](docs/settings/settings.md)
-2. [charging NiMH and NiCd batteries](docs/nimh_nicd_charging.md)
-
 [Flashing](docs/flashing.md)
 ----------------------------
 
 [Calibration](docs/usage/calibration.md)
------------------------------------------------------------------------
+----------------------------------------
+
+[Charging](docs/usage/charings.md)
+----------------------------------
+
+[Battery settings](docs/usage/battery_settings.md)
+--------------------------------------------------
+
+[Settings](docs/usage/settings.md)
+----------------------------------
 
 [Building from Source](docs/building.md)
 ----------------------------------------
 
 [Troubleshooting](docs/troubleshooting.md)
----------------
+------------------------------------------
 
 Useful materials
 ----------------
