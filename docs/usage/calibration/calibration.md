@@ -8,7 +8,7 @@ If you have any problems with calibration, go to ![options](i_options.png) ![res
 
 ## Voltage calibration
 
-- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![voltage](i_voltage.png):
+- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![voltage](i_voltage.png)
 - connect a LiPo battery to the main leads and balance port  
    *note: if you don't have a battery with a balance port just connect a regular one (<4.5V)
 to the main leads and the balance port first two [pins](../../hardware/connectors/balancePortPins.jpeg) (pin "0" and pin "1")*
@@ -30,7 +30,7 @@ voltage calibration done.
 - connect a amperemeter in series with a **NOT fully charged** battery to the main leads, use the 10A(20A) input  
  *note: balance port needs to be disconnected*  
  *note: battery will be charged without checking the output voltage, make sure battery is not fully charged*
-- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![I charge](i_Icharge.png):
+- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![I charge](i_Icharge.png)
   - go to: ![1000mA](i_1000mA.png)  
     press "start" button (current flow should be visible on amperemeter)  
     press "Inc", "Dec" buttons until the amperemeter shows 1000mA  
@@ -44,7 +44,7 @@ voltage calibration done.
 
 ### discharge current calibration
 
-- go to: ![I discharge](i_Idischarge.png):  
+- go to: ![I discharge](i_Idischarge.png)  
     Repeat the same steps as before, this time for 300mA and 100mA (50mA) current  
     *WARNING: the battery will be* **discharged** *with high current!*
 
@@ -55,7 +55,7 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 
 ## Internal temperature calibration - optional
 
-- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![temp intern](i_temp_internal.png):
+- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![temp intern](i_temp_internal.png)
 - set ![calibration point 0](i_cp0.png) to 0
   - set ![temp20](i_temp20.png) to your room temperature
 - set ![calibration point 1](i_cp1.png) to 1
@@ -65,11 +65,11 @@ for that you have to set ![I expected](i_Iexpected.png) and calibrate "value:" a
 ## External temperature calibration - optional
 
 - connect your temperature sensor to the balance port
-- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![temp extern](i_temp_external.png):
+- go to: ![options](i_options.png) ![calibrate](i_calibrate.png) ![temp extern](i_temp_external.png)
 - set ![calibration point 0](i_cp0.png) to 0
   - set ![temp20](i_temp20.png) to your room temperature
 - set ![calibration point 1](i_cp1.png) to 1
-  - heat put your charger with a heatgun to about 60°C (your body temperature will also do the job)
+  - heat put your temperature proble with a heatgun to about 60°C (your body temperature will also do the job)
   - set ![temp60](i_temp60.png) acordingly
 
 ## [Calibration  "expert DANGER!" - optional](docs/calibration_expert.md)
