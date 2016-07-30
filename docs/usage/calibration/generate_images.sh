@@ -8,6 +8,8 @@ RESIZE=50%
 
 $GEN ">options "        "i_options.png"   $RESIZE
 $GEN ">calibrate "      "i_calibrate.png" $RESIZE
+$GEN ">reset default "  "i_reset_default.png"   $RESIZE
+
 $GEN ">voltage "        "i_voltage.png"   $RESIZE
 $GEN ">Vin:    14.055V" "i_vin.png"       $RESIZE
 $GEN ">Vb1:     3.965V" "i_vb1.png"       $RESIZE
