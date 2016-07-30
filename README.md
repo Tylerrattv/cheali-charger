@@ -78,27 +78,7 @@ Usage:
 
 After [flashing](docs/flashing.md) your charger the first thing you should do is  
 reset the charger to default settings (go to: "options"->"reset default" and press the "start" button)  
-and then [calibrate](README.md#calibration) it, now your charger is ready to use.
-
-programming you charger:
-- select a free battery slot (indicated as 1., 2.,...)
-- go to "edit battery"
- - change battery type "Bat:"
- - set battery voltage (number of cells) "V:"
- - set battery capacity "Ch:"
- - set charge current "Ic:"
- - set discharge current "Id:"
- - set time limit "Tlim:" (can be unlimited)
- - press "create name"
-
-charing/discharging...:
-- select battery
-- select program: "charge", "discharge"...
-- you should see a "info" screen,  
-  (if you hear beeps, check your battery connections)
-- hold "start" button for 2s to start the program
-- charger is working now, press "inc", "dec" to see more screens
-- to exit the program press "stop"
+and then [calibrate](README.md#calibration) it, now your charger is ready to [charge](docs/usage/README.md).
 
 1. informations about [settings](docs/settings/settings.md)
 2. [charging NiMH and NiCd batteries](docs/nimh_nicd_charging.md)
@@ -106,69 +86,14 @@ charing/discharging...:
 [Flashing](docs/flashing.md)
 ----------------------------
 
-Calibration
------------
-Connect a NOT fully charged LiPo battery to the main leads  
-and the balance port, if you don't own a battery with a  
-balance connector, just connect a regular one (~4V)  
-to the main leads and the balance port first two [pins](docs/connectors/balancePortPins.jpeg)  
-(pin "0" <--> Bat-, pin "1" <--> Bat+). 
-
-go to: "options"->"calibrate":
-- voltage calibration: go to "voltage"
-   - use a voltmeter to measure voltage on all cells and the power supply voltage (Vin)  
-     and set voltage on Vin, Vb1, Vb2, .., Vb6  
-      - only Vb1 is mandatory, battery main leads and balance port must be connected
-      - you need to change at least one value (this will copy V1-6 voltage to Vbat)
-- charge current calibration: 
-  - connect your amperemeter in series with the battery, use the 10A(20A) input  
-  - disconnect balance port
-  - go to "I charge"  
-    - go to: "50mA" (100mA on some versions)  
-      press "start" button (current flow should be visible on amperemeter)  
-      press "Inc", "Dec" buttons until the amperemeter shows 50mA (100mA on some versions)  
-      press "start" button to save the setting  
-    - go to: "1000mA"  
-      press "start" button  
-      press "Inc", "Dec" buttons until the amperemeter shows 1000mA  
-      press "start" button to save the setting  
-      WARNING: the battery will be charged with high current!
-- discharge current calibration: go to "I discharge"  
-    Repeat the same steps as before  
-    WARNING: the battery will be discharged with high current!
-- when needed: external (or internal) temperature probe calibration: go to "temp extern" ("temp intern")
-    You have to set two calibration points
-
-Done.  
-If you have any problems with calibration, go to "options"->"reset default" and try again.
-
-
-[Calibration - Expert (IMAX B6) - optional](docs/calibration_expert.md)
+[Calibration](docs/usage/calibration.md)
 -----------------------------------------------------------------------
 
 [Building from Source](docs/building.md)
 ----------------------------------------
 
-Troubleshooting
+[Troubleshooting](docs/troubleshooting.md)
 ---------------
-
-1. After flashing I see "options" and some strange characters in the second line (for example: squares), what should I do?
-  - reset the charger to default settings (go to: "options"->"reset default" and press the "start" button)
-2. I get **"calib. error"**: see [this.](docs/calibration_error_codes.md)
-
-**Atmega32 CPU:**
-
-1. After flashing charger doesn't work (display shows squares):
-  - download the *.hex again, use the "RAW" button in github
-  - check the sha1 sum of the file, compare it with *.sha1:
-    - linux: $sha1sum cheali-charger*.hex
-    - windows: install [Microsoft File Checksum Integrity Verifier](http://www.microsoft.com/en-us/download/details.aspx?id=11533)
-      - in cmd.exe: fciv.exe -sha1 -add cheali-charger-*.hex
-2. Sha1 sum is correct and the charger still doesn't work (display shows squares):
-  - reset atmega32 fuses using avrdude:
-    - windows: avrdude.exe -patmega32 -cusbasp -Uhfuse:w:0xc5:m -Ulfuse:w:0x3f:m
-    - linux:   avrdude     -patmega32 -cusbasp -Uhfuse:w:0xc5:m -Ulfuse:w:0x3f:m
-
 
 Useful materials
 ----------------
