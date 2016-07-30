@@ -41,7 +41,7 @@ voltage calibration done.
     press "start" button (current flow should be visible on amperemeter)  
     press "Inc", "Dec" buttons until the amperemeter shows 100mA (50mA on some versions)  
     press "start" button to save the setting  
-    *note: you may what to repeat this point with amperemeter connected to the 300mA input*
+    *note: you may want to repeat this point with amperemeter connected to the 300mA input*
 
 ### discharge current calibration
 
