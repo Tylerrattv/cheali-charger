@@ -8,7 +8,7 @@ At start the charger selects one _reference cell_ (marked as ![empty](empty.png)
 If a cell voltage is greater than the _reference cell_ voltage plus the _balance error_ then 
 the cell (marked as ![full](full.png)) will be gradually _discharged_ until its voltage goes below the _reference cell_ voltage.
 If a cell voltage is lower than the _reference cell_ voltage plus the _balance error_, 
-the cell (marked as ![half](half.png)) won't be _discharged_.
+the cell (marked as ![half](half.png)) won't be _discharged_.  
 It should be noted that the balance port is also used to measure cell voltages. During a cell _discharge_
 the voltage measurement is inaccurate, therefore cheali-charger _discharges_ the cells in short intervals, see graph. 
 
@@ -19,7 +19,7 @@ is higher than the resistor current then the cell will be in fact charged.
 
 ![balancing_grapf](balancing_grapf.png)
 
-## Balancing screen
+## balancing screen
 
 ![balancing](balancing.png)
 
