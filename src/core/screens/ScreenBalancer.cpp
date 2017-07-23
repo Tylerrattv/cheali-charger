@@ -38,12 +38,15 @@ namespace Screen { namespace Balancer {
     int8_t knightRiderDir = 1;
 #endif
 
-    AnalogInputs::ValueType getBalanceValue(uint8_t cell, AnalogInputs::Type type)
-    {
-        if(type == AnalogInputs::Voltage)
-            return ::Balancer::getPresumedV(cell);
-        return TheveninMethod::getReadableRthCell(cell);
-    }
+    void Screen::Balancer::displayVoltage1_4() {
+    printBalancer(0, AnalogInputs::Voltage);
+    printBalancer(1, AnalogInputs::Voltage);
+    lcdPrintSpaces();
+    lcdSetCursor0_1();
+    printBalancer(2, AnalogInputs::Voltage);
+    printBalancer(3, AnalogInputs::Voltage);
+    lcdPrintSpaces();
+}
 
     void printBalancer(uint8_t cell, AnalogInputs::Type type) {
         if(cell < MAX_BANANCE_CELLS) {
