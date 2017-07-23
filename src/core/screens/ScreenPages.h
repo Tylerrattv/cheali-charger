@@ -52,13 +52,13 @@ namespace Screen { namespace Pages {
             {Screen::Methods::displayDeltaTextern,  PAGE_BATTERY(ProgramData::ClassNiXX), PAGE_START_INFO},
             {Screen::Methods::displayEnergy,        PAGE_ALWAYS, PAGE_START_INFO + PAGE_PROGRAM(Program::Balance)},
 
-            {Screen::Balancer::displayVoltage1_3,   PAGE_START_INFO + PAGE_BALANCE_PORT , PAGE_NONE},
-            {Screen::Balancer::displayVoltage4_6,   PAGE_START_INFO + PAGE_BALANCE_PORT , PAGE_NONE},
+            {Screen::Balancer::displayVoltage1_4,   PAGE_START_INFO + PAGE_BALANCE_PORT , PAGE_NONE},
+            {Screen::Balancer::displayVoltag5_6,   PAGE_START_INFO + PAGE_BALANCE_PORT , PAGE_NONE},
 BALANCER_PORTS_GT_6(
             {Screen::Balancer::displayVoltage7_9,   PAGE_START_INFO + PAGE_BALANCE_PORT , PAGE_NONE},)
 
-            {Screen::Balancer::displayResistance1_3,PAGE_BALANCE_PORT, PAGE_START_INFO + PAGE_PROGRAM(Program::Balance)},
-            {Screen::Balancer::displayResistance4_6,PAGE_BALANCE_PORT, PAGE_START_INFO + PAGE_PROGRAM(Program::Balance)},
+            {Screen::Balancer::displayResistance1_4,PAGE_BALANCE_PORT, PAGE_START_INFO + PAGE_PROGRAM(Program::Balance)},
+            {Screen::Balancer::displayResistance5_6,PAGE_BALANCE_PORT, PAGE_START_INFO + PAGE_PROGRAM(Program::Balance)},
 BALANCER_PORTS_GT_6(
             {Screen::Balancer::displayResistance7_9,PAGE_BALANCE_PORT, PAGE_START_INFO + PAGE_PROGRAM(Program::Balance)},)
 
